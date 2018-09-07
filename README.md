@@ -30,7 +30,7 @@ If you are using Windows you need to install [Whois from Microsoft Website](http
 ```
 const whois = require('whois-to-json');
 
-whois('schiriac.com')
+whois('saveni.ro')
   .then(data => {
     console.log(JSON.stringify(data, null, 2));
   })
@@ -116,7 +116,7 @@ For duplicate keys, a array is created which will contain all values (duplicate 
 ```
 {
   code: -1,
-  domain: 'schiriac.com',
+  domain: 'saveni.ro',
   reason: 'cannot connect()'
 }
 ```
