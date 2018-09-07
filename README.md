@@ -7,7 +7,7 @@ A npm package that outputs json from whois command.
 - [Dependencies](#dependencies)
 - [Usage](#usage)
 - [Output](#output)
-- [Error Cases](#error-cases)
+- [Errors](#errors)
 - [Issues](#issues)
 - [Contribute](#contribute)
 - [License](#license)
@@ -102,7 +102,7 @@ For duplicate keys, a array is created which will contain all values (duplicate 
 ```
 ---
 
-## Error Cases
+## Errors
 
 #### Program shows a warning but exit successfully ( eg. you provide a empty string )
 ```
