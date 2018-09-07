@@ -1,0 +1,27 @@
+{
+  "name": "whois-to-json",
+  "version": "1.0.0",
+  "description": "A npm package that outputs json from whois command",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "devtest": "nodemon test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robiXxu/whois-to-json.git"
+  },
+  "keywords": [
+    "whois-to-json",
+    "whois-json",
+    "json-whois",
+    "whois"
+  ],
+  "author": "Schiriac Robert <schiriac.robert@gmail.com> (https://www.schiriac.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robiXxu/whois-to-json/issues"
+  },
+  "homepage": "https://github.com/robiXxu/whois-to-json#readme",
+  "dependencies": {}
+}
