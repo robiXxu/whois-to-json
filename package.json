@@ -1,6 +1,6 @@
 {
   "name": "whois-to-json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A npm package that outputs json from whois command",
   "main": "index.js",
   "scripts": {
