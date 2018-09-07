@@ -18,7 +18,7 @@
     "whois"
   ],
   "author": "Schiriac Robert <schiriac.robert@gmail.com> (https://www.schiriac.com)",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/robiXxu/whois-to-json/issues"
   },
