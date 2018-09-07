@@ -21,7 +21,7 @@ npm install whois-to-json
 ## Dependencies
 None with one mention:
 
-If you are using Windows you need to install [Whois from Microsoft Website](https://docs.microsoft.com/en-us/sysinternals/downloads/whois), unzip and put :
+If you are using Windows you need to download [Whois from Microsoft Website](https://docs.microsoft.com/en-us/sysinternals/downloads/whois), unzip and put :
 - whois.exe -> [WindowsDriveLetter]\Windows\System32 ( for 32-bit systems ) 
 - whois64.exe -> [WindowsDriveLetter]\Windows\SysWOW64 ( for 64-bit x86 systems )
 
