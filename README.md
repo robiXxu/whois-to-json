@@ -43,113 +43,61 @@ whois('schiriac.com')
 For duplicate keys, a array is created which will contain all values (duplicate values are ignored)
 
 ```
-{
-  "refer": "whois.verisign-grs.com",
-  "domain": "COM",
-  "organisation": "VeriSign Global Registry Services",
-  "address": [
-    "12061 Bluemont Way",
-    "Reston Virginia 20190",
-    "United States"
+{  
+  refer:'whois.rotld.ro',
+  domain:'RO',
+  organisation:'National Institute for R&D in Informatics',
+  address:[  
+    'Bd. Averescu 8-10',
+    'Bucharest 011454',
+    'Romania',
+    'Sector 1',
+    '8-10, Bd. Averescu'
   ],
-  "contact": [
-    "administrative",
-    "technical"
+  contact:[  
+    'administrative',
+    'technical'
   ],
-  "name": "Registry Customer Service",
-  "phone": "+1 703 925-6999",
-  "fax-no": "+1 703 948 3978",
-  "e-mail": "info@verisign-grs.com",
-  "nserver": [
-    "A.GTLD-SERVERS.NET 192.5.6.30 2001:503:a83e:0:0:0:2:30",
-    "B.GTLD-SERVERS.NET 192.33.14.30 2001:503:231d:0:0:0:2:30",
-    "C.GTLD-SERVERS.NET 192.26.92.30 2001:503:83eb:0:0:0:0:30",
-    "D.GTLD-SERVERS.NET 192.31.80.30 2001:500:856e:0:0:0:0:30",
-    "E.GTLD-SERVERS.NET 192.12.94.30 2001:502:1ca1:0:0:0:0:30",
-    "F.GTLD-SERVERS.NET 192.35.51.30 2001:503:d414:0:0:0:0:30",
-    "G.GTLD-SERVERS.NET 192.42.93.30 2001:503:eea3:0:0:0:0:30",
-    "H.GTLD-SERVERS.NET 192.54.112.30 2001:502:8cc:0:0:0:0:30",
-    "I.GTLD-SERVERS.NET 192.43.172.30 2001:503:39c1:0:0:0:0:30",
-    "J.GTLD-SERVERS.NET 192.48.79.30 2001:502:7094:0:0:0:0:30",
-    "K.GTLD-SERVERS.NET 192.52.178.30 2001:503:d2d:0:0:0:0:30",
-    "L.GTLD-SERVERS.NET 192.41.162.30 2001:500:d937:0:0:0:0:30",
-    "M.GTLD-SERVERS.NET 192.55.83.30 2001:501:b1f9:0:0:0:0:30"
+  name:[  
+    'Ionut Eugen SANDU',
+    '.ro TLD Tech Contact'
   ],
-  "ds-rdata": "30909 8 2 E2D3C916F6DEEAC73294E8268FB5885044A833FC5459588F4A9184CFC41A5766",
-  "whois": "whois.verisign-grs.com",
-  "status": "ACTIVE",
-  "remarks": "Registration information: http://www.verisigninc.com",
-  "created": "1985-01-01",
-  "changed": "2017-10-05",
-  "source": "IANA",
-  "DomainName": "SCHIRIAC.COM",
-  "RegistrarWHOISServer": "whois.namecheap.com",
-  "RegistrarURL": "http://www.namecheap.com",
-  "UpdatedDate": [
-    "2018-08-08T10:53:13Z",
-    "2018-08-08T10:53:13.99Z"
+  phone:'+40 21 4057200',
+  'fax-no':[  
+    '+40 21 316 5340',
+    '+40 21 316 1084'
   ],
-  "CreationDate": [
-    "2017-09-07T20:15:47Z",
-    "2017-09-07T20:15:47.00Z"
+  'e-mail':[  
+    'ionut@rotld.ro',
+    'dns@rotld.ro'
   ],
-  "RegistryExpiryDate": "2020-09-07T20:15:47Z",
-  "Registrar": [
-    "NameCheap Inc.",
-    "NAMECHEAP INC"
+  nserver:[  
+    'DNS-AT.ROTLD.RO 2001:628:453:bb:0:0:0:6 78.104.145.6',
+    'DNS-RO.DENIC.DE 81.91.161.99',
+    'PRIMARY.ROTLD.RO 192.162.16.18 2a03:5e80:0:4:192:162:16:18',
+    'SEC-DNS-A.ROTLD.RO 192.162.16.20 2a03:5e80:0:4:192:162:16:20',
+    'SEC-DNS-B.ROTLD.RO 193.230.31.230 2a03:5e80:0:5:193:230:31:230',
+    'SNS-PB.ISC.ORG 192.5.4.1 2001:500:2e:0:0:0:0:1'
   ],
-  "RegistrarIANAID": "1068",
-  "RegistrarAbuseContactEmail": "abuse@namecheap.com",
-  "RegistrarAbuseContactPhone": "+1.6613102107",
-  "NameServer": [
-    "AIDA.NS.CLOUDFLARE.COM",
-    "MITCH.NS.CLOUDFLARE.COM"
+  'ds-rdata':'19267 8 2 499357E3CC1449108F1E2BB70A1B952D140871A50E41138786EB51A2316468EA',
+  whois:'whois.rotld.ro',
+  status:'ACTIVE',
+  remarks:'Registration information: http://www.rotld.ro/',
+  created:'1993-02-26',
+  changed:'2018-05-11',
+  source:'IANA',
+  DomainName:'saveni.ro',
+  RegisteredOn:'2008-08-07',
+  ExpiresOn:'2018-09-07',
+  Registrar:'ICI - Registrar',
+  ReferralURL:'http://www.rotld.ro',
+  DNSSEC:'Inactive',
+  Nameserver:[  
+    'ns1.digitalocean.com',
+    'ns3.digitalocean.com',
+    'ns2.digitalocean.com'
   ],
-  "DNSSEC": "unsigned",
-  "URLoftheICANNWhoisInaccuracyComplaintForm": "https://www.icann.org/wicf/",
-  "Domainname": "schiriac.com",
-  "RegistrarRegistrationExpirationDate": "2020-09-07T20:15:47.00Z",
-  "Reseller": "NAMECHEAP INC",
-  "RegistryRegistrantID": "",
-  "RegistrantName": "WhoisGuard Protected",
-  "RegistrantOrganization": "WhoisGuard, Inc.",
-  "RegistrantStreet": "P.O. Box 0823-03411",
-  "RegistrantCity": "Panama",
-  "RegistrantState/Province": "Panama",
-  "RegistrantPostalCode": "",
-  "RegistrantCountry": "PA",
-  "RegistrantPhone": "+507.8365503",
-  "RegistrantPhoneExt": "",
-  "RegistrantFax": "+51.17057182",
-  "RegistrantFaxExt": "",
-  "RegistrantEmail": "99d47a72364440feab71057af5e6379a.protect@whoisguard.com",
-  "RegistryAdminID": "",
-  "AdminName": "WhoisGuard Protected",
-  "AdminOrganization": "WhoisGuard, Inc.",
-  "AdminStreet": "P.O. Box 0823-03411",
-  "AdminCity": "Panama",
-  "AdminState/Province": "Panama",
-  "AdminPostalCode": "",
-  "AdminCountry": "PA",
-  "AdminPhone": "+507.8365503",
-  "AdminPhoneExt": "",
-  "AdminFax": "+51.17057182",
-  "AdminFaxExt": "",
-  "AdminEmail": "99d47a72364440feab71057af5e6379a.protect@whoisguard.com",
-  "RegistryTechID": "",
-  "TechName": "WhoisGuard Protected",
-  "TechOrganization": "WhoisGuard, Inc.",
-  "TechStreet": "P.O. Box 0823-03411",
-  "TechCity": "Panama",
-  "TechState/Province": "Panama",
-  "TechPostalCode": "",
-  "TechCountry": "PA",
-  "TechPhone": "+507.8365503",
-  "TechPhoneExt": "",
-  "TechFax": "+51.17057182",
-  "TechFaxExt": "",
-  "TechEmail": "99d47a72364440feab71057af5e6379a.protect@whoisguard.com",
-  "URLoftheICANNWHOISDataProblemReportingSystem": "http://wdprs.internic.net/"
+  DomainStatus:'PendingDelete'
 }
 ```
 ---
